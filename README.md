@@ -11,7 +11,7 @@
 
 ###### 2、construct the scoring matrix H and path matrix D
 
-**For two residue sequence, H is a 2-dimension matrix and formed by these two sequence residue. Each value in the H is a best optimized score(using blosum62 and surrounding area of D to determine the different gap penalty ) from 3 directions(4, 2, 3 stands for left, up, top left) and it take the minimum value of 0. **
+**For two residue sequence, H is a 2-dimension matrix and formed by these two sequence residue. Each value in the H is a best optimized score(using blosum62 and surrounding area of D to determine the different gap penalty ) from 3 directions(4, 2, 3 stands for left, up, top left) and it take the minimum value of 0.**
 
 **Also, D is a 2-dimension matrix  and formed by these two sequence residue. Each value in the D is a path direction (4, 2, 3 stands for left, up, top left)  by which can gain the best optimized score.**
 
